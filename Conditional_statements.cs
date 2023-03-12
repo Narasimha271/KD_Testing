@@ -48,14 +48,19 @@ namespace KD_Testing
                 string a = Console.ReadLine();
                 int Age = Convert.ToInt32(a);
 
-                if (Age >= 18)
+                if ( Age >  18 )
                 {
                     Console.WriteLine("PLease pay the fees");
+                }
 
-                    if (Age > 50)
-                    {
-                        Console.WriteLine("You got a discount of 50% ");
-                    }
+                else if (Age == 18)
+                {
+                    Console.WriteLine("You got a discount of 50% ");
+                }
+
+                else
+                {
+                    Console.WriteLine("People below 18 are not allowed");
                 }
 
             }
