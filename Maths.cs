@@ -45,13 +45,7 @@ namespace KD_Testing
     Console.WriteLine(c / d);
         }
 
-        static void Main(string[] args)
-        {   
-            // class_name obj_name = new class_name();
-           input kittu = new input();
-            // object_name.method_name();
-            kittu.sadds();
-        }
+     
 
 
 
