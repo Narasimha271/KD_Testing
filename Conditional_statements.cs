@@ -68,7 +68,40 @@ namespace KD_Testing
         }
 
         public void switch_cond()
-        { 
+        {
+            Console.WriteLine("Plesae enter a number for the week day from (1 to 7)");
+              int day_number = Convert.ToInt32(Console.ReadLine());
+
+            switch (day_number)
+            {
+                case 1: Console.WriteLine("This is Monday");
+                    break;
+
+                case 2: Console.WriteLine("This is Tuesday");
+                    break;
+
+                case 3:
+                    Console.WriteLine("This is Wednesday");
+                    break;
+
+                case 4:
+                    Console.WriteLine("This is Thursday");
+                    break;
+
+                case 5:
+                    Console.WriteLine("This is Friday");
+                    break;
+
+                case 6:
+                    Console.WriteLine("This is saturdat");
+                    break;
+
+                case 7:
+                    Console.WriteLine("This is sunday");
+                    break;
+
+              
+            }
 
         }
     }

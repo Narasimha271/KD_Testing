@@ -11,11 +11,9 @@ namespace KD_Testing
 
         string c = "Vishal!!";
         public void addition()// scope_of_the_method    return_type    method_name()   {}
-        {
-           
+        {          
             Console.WriteLine(a-b);
             Console.WriteLine(c);
-
         }
 
     }
